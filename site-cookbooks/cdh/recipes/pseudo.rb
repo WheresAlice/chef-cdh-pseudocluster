@@ -39,3 +39,6 @@ end
   end
 end
 
+service "iptables" do
+  action :stop
+end
